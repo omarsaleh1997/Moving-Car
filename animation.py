@@ -142,12 +142,7 @@ def draw1():
         if x>8:
             reverse=True
 
-def Road():
-    glLoadIdentity()
-    glColor3f(0, 1, 1)
-    glTranslate(0, -1.80, 0)
-    glScale(50, .05, 10)
-    glutSolidCube(1)
+
 
 
 
@@ -158,7 +153,7 @@ def Road():
 def main():
 
     draw1()
-    # Road()
+    
 
     glFlush()
 
